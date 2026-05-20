@@ -1,8 +1,6 @@
 # Hybrid Sudoku Engine: Generator & Solver in C++
 
-![Sudoku Demo](https://via.placeholder.com/800x400.png?text=Sudoku+Application+Demo+GIF+Placeholder) <!-- Replace this URL with your own GIF/Image later -->
-
-A robust, lightweight Command Line Interface (CLI) application written in modern C++ (C++17) that can both **generate 100% valid, randomized Sudoku puzzles** from scratch and **solve any given Sudoku board** using a hybrid algorithmic approach.
+A robust, lightweight Command Line Interface (CLI) application written in modern C++  that can both **generate 100% valid, randomized Sudoku puzzles** from scratch and **solve any given Sudoku board** using a hybrid algorithmic approach.
 
 ---
 
@@ -33,21 +31,24 @@ This project uses **CMake** for easy building. Ensure you have a C++17 compatibl
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/Wexis39/SudokuAlgorithm.git](https://github.com/Wexis39/SudokuAlgorithm.git)
+git clone (https://github.com/Wexis39/SudokuAlgorithm.git)
 cd SudokuAlgorithm
+```
 
 2. Build via CMake
 
 Create a build directory, generate the build files, and compile the executables:
-Bash
-
+```bash
 mkdir build
 cd build
 cmake ..
 cmake --build .
+```
 
 After a successful compilation, you will find two separate executables inside your build directory: sudoku and sudokuSolve.
+
 🎮 How to Use
+
 🎲 1. Generating a Sudoku Board
 
 To generate a completely random and solved Sudoku board, run the generator executable:
@@ -73,3 +74,8 @@ Upon running, you'll be greeted with a menu:
     Option 2 (Index-Based - Recommended): Type the Row (1-9), Column (1-9), and the Number. The board will update live on the screen. Once you have populated your starting hints, type -1 during the coordinate entry phase to start the solving engine.
 
 The engine will then process the puzzle and instantaneously print out the final validated ***Solution*** block on your screen.
+
+
+## Author
+
+- [@Metehan Atalay](https://www.linkedin.com/in/metehan-atalay-bb2b76300/)
