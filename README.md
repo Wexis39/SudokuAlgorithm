@@ -4,6 +4,8 @@ A robust, lightweight Command Line Interface (CLI) application written in modern
 
 ---
 
+<img width="297" height="297" alt="Image" src="https://github.com/user-attachments/assets/b676070e-f5db-44bb-9498-aafc3864f03b" />
+
 ## 🚀 Features
 
 * **100% Valid Puzzle Generation:** Automatically creates complete, completely randomized, and mathematically flawless Sudoku boards every single time.
